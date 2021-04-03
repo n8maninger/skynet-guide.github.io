@@ -3,8 +3,6 @@ name: Build markdown and public
 # Run this workflow every time a new commit pushed to your repository
 on:
   push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
